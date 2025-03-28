@@ -2,4 +2,8 @@ This repository contains codes that were in the teacher resources and some devel
 
 To compie a code in terminal, use
 
-``` gcc code.c -o code -lGL -lGLU -lglut -lm ```
+``` gcc code.c -o code -lGL -lGLU -lglut ```
+
+If you are using the math library, use
+
+``` gcc code.c -o code -lGL -lGLU -lglut -lm```
